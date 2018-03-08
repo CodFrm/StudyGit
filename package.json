@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"echo \"Success\""
+    "build": "echo \"Success\"",
+    "cov": "./node_modules/.bin/istanbul cover ./src/demo.js --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/CodFrm/StudyGit/issues"
   },
-  "homepage": "https://github.com/CodFrm/StudyGit#readme"
+  "homepage": "https://github.com/CodFrm/StudyGit#readme",
+  "devDependencies": {
+    "istanbul": "^0.4.5"
+  }
 }
