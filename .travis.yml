@@ -1,4 +1,5 @@
 language: node_js
+repo_token: udOcP356x8RySwzYcSnr98lcTAMXHOz2b
 node_js:
  - 'node'
  - '8'
