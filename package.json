@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/CodFrm/StudyGit#readme",
   "devDependencies": {
+    "coveralls": "^3.0.0",
     "istanbul": "^0.4.5"
   }
 }
