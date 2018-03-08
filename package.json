@@ -1,0 +1,20 @@
+{
+  "name": "studygit",
+  "version": "1.0.0",
+  "description": "学习Git\r ![img](home.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"echo \"Success\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodFrm/StudyGit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodFrm/StudyGit/issues"
+  },
+  "homepage": "https://github.com/CodFrm/StudyGit#readme"
+}
