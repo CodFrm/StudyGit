@@ -9,3 +9,9 @@ script:
  - npm run build
 after_script:
  - npm run cov
+
+deploy:
+  - provider: script
+    script: echo $TRAVIS_COMMIT_RANGE && echo $TRAVIS_COMMIT_MESSAGE && echo $TRAVIS_COMMIT
+    on:
+      branch: master
