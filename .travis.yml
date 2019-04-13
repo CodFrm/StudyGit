@@ -5,7 +5,6 @@ before_install:
  - npm install
 script: 
  - npm run build
-after_script:
  - npm run cov
 
 before_deploy:
@@ -17,4 +16,4 @@ deploy:
     name: "test"
     body: ${BODY}
     on:
-      all_branches: true
+      tags: true
