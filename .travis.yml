@@ -10,10 +10,10 @@ after_script:
 
 before_deploy:
   - export BODY=$(git log --pretty=format:"%s" $TRAVIS_COMMIT_RANGE)
+
 deploy:
   - provider: releases
     api_key: $GITHUB_TOKEN
-    name: ${TRAVIS_TAG}
     body: ${BODY}
     on:
       all_branches: true
