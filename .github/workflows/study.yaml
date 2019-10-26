@@ -16,4 +16,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: name
-        run: echo '$HOME'
+        run: echo $HOME,
