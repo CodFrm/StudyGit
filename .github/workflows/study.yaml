@@ -1,0 +1,19 @@
+name: Use Actions
+
+on: [push]
+
+jobs:
+  hello:
+    name: Hello
+    runs-on: ubuntu-latest
+    needs: name
+    steps:
+      - name: Hello
+        run: echo 'Hello'
+
+  name:
+    name: Echo name
+    runs-on: ubuntu-latest
+    steps:
+      - name: name
+        run: echo '$HOME'
