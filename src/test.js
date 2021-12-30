@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Githubwebhook测试
 // @description  test
-// @version      1.0.1
+// @version      1.0.2
 // @author       test
 // @run-at       document-end
 // @grant        unsafeWindow
