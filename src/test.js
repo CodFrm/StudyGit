@@ -5,5 +5,6 @@
 // @run-at       document-end
 // @grant        unsafeWindow
 // @grant        GM_xmlhttpRequest
+// @description test
 // ==/UserScript==
 console.log('webhook 测试');
