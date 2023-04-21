@@ -8,4 +8,4 @@
 // @grant        GM_xmlhttpRequest
 // ==/UserScript==
 
-console.log('webhook 测试');
+console.log('webhook 测试缓存');
