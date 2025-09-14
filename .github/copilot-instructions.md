@@ -1,1 +1,3 @@
-When performing a code review, respond in Chinese.
+## Code Review
+
+- When performing a code review, respond in Chinese.
